@@ -2,8 +2,8 @@ name: benchmarks
 
 on:
   workflow_bench:
-  # push:
-  #   branches: [ "master" ]
+   push:
+     branches: [ "master" ]
 
 env:
   MAINNET_EXECUTION_RPC: ${{ secrets.MAINNET_EXECUTION_RPC }}
